@@ -7,13 +7,11 @@ body {
     justify-content: center; /* Horizontally center */
 }
 
-
 .a4 { /* 2480 x 3508 */
     width: 850px; /* 1700px */
-    height: 1100px; /* 2200px */
-    border: 1px solid black;
+    height: auto; /* 2200px */
+    border: 3px solid black;
 }
-
 
 table { 
     width: 100%;
@@ -21,37 +19,38 @@ table {
     border: 3px solid red; 
 }
 
-
-.header {
+.upper-container {
     width: auto;
     height: 170px; /* 340px */
-    border: 1px solid black;
+    border: 3px solid orange;
     text-align: center;
 }
 
-.main-container {
+.lower-container-outer {
     width: auto;
-    height: 900px; /* 1800px */
-    border: 1px solid black
+    height: auto; /* 1800px */
+    border: 3px solid orange;
 }
 
-.sgi {
+.lower-container-inner {
     margin-left: 45px;
     margin-right: 45px;
+    border: 3px solid black;
+    height: 100%;
+    text-align: center;
 }
 
-.fees {
+.inline-container {
     width: 340px; /* 680px */
     height: 250px;  /* 500px */
     border: 1px solid green;
-    margin-left: 30px;
-    margin-top: 30px;
+
+    margin: 15px 10px 0 10px;
+    display: inline-block;
 }
 
 .footer { /* TO BE EDITED */
-    width: auto;
-    height: auto; 
-    text-align: center;
-    border: 2px solid red
+    margin-top: 15px;
+    border: 2px solid red;
 }
 
