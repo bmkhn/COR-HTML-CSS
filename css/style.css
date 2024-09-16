@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 11px;
     margin: 0;
     padding: 20px;
     display: flex;
-    justify-content: center; /* Horizontally center */
+    justify-content: center;
 }
 
-.a4 { /* 2480 x 3508 */
+.a4 {
     width: 850px; /* 1700px */
     height: auto; /* 2200px */
     border: 3px solid black;
