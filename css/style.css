@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 11px;
+    font-size: 10px;
     margin: 0;
     padding: 20px;
     display: flex;
@@ -19,6 +19,12 @@ body {
     border: 3px solid orange;
     text-align: center;
 }
+
+
+
+
+
+
 
 .lower-container-outer {
     width: auto;
@@ -44,14 +50,10 @@ body {
     display: inline-block;
 }
 
-.footer { /* TO BE EDITED */
-    margin-top: 15px;
-}
-
 thead {
     background-color: rgb(203, 205, 245);
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 table { 
@@ -66,10 +68,52 @@ td {
 }
 
 .underline {
-    border-bottom: 3px solid lightgrey; /* Adjust the style and color as needed */
+    border-bottom: 3px solid lightgrey; 
     display: inline-block;
-    padding-bottom: 2px; /* Optional: Adjust spacing to align text with the line */
+    padding-bottom: 2px;
     padding-left: 2px;
     text-decoration: none; 
     width: 80%;
 }
+
+
+
+
+
+/* ASSESSED FEES AND SCHEDULE OF PAYMENT */
+
+.fees th:first-child, 
+.fees td:first-child {
+    width: 60%;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 8px;
+}
+
+
+.fees th:last-child, 
+.fees td:last-child {
+    width: 40%;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 8px;
+}
+
+
+.fees2 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.fees2 td:first-child {
+    text-align: right; 
+}
+
+.payment {
+    font-size: 8px;
+}
+
+.payment td {
+    border: 1px solid lightgrey;
+}
+
