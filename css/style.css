@@ -173,7 +173,7 @@ td {
     font-family: 'Courier New', Courier, monospace;
 }
 
-rdate {
+.rdate {
     padding-bottom: 2px;
     font-weight: 600;
 
@@ -193,7 +193,6 @@ rdate {
     text-decoration: none; 
     line-height: 1.5;
 }
-
 
 
 /* SIGNATUER (APPROVED BY) */
